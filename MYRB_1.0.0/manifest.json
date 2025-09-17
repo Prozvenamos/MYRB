@@ -1,13 +1,19 @@
 {
   "manifest_version": 3,
   "name": "MYRB",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Hides YouTube recommendations",
   "content_scripts": [
     {
       "matches": ["*://*.youtube.com/*"],
       "js": ["content.js"],
       "run_at": "document_start"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": ["not.mp3"],
+      "matches": ["*://*.youtube.com/*"]
     }
   ]
 }
