@@ -15,4 +15,3 @@ Simple extension that removes recommendations on YouTube:
 3. Enable "Developer mode" in the top right corner
 4. Click "Load unpacked"
 5. Select the `MYRB_version` folder
-
